@@ -1,0 +1,17 @@
+{
+	"extends": "@sapphire/ts-config",
+	"compilerOptions": {
+    "sourceMap": true,
+		"rootDir": "src",
+		"outDir": "dist",
+		"tsBuildInfoFile": "dist/.tsbuildinfo",
+		"ignoreDeprecations": "5.0",
+		"experimentalDecorators": true,
+    "lib": [
+      "ESNEXT",
+      "dom"
+    ],
+    "skipLibCheck": true
+	},
+	"include": ["src"],
+}

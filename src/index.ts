@@ -14,7 +14,7 @@ export interface Global {
   */
 }
 
-export interface User {
+export interface Users {
   /*
     /snowflake2user/[discordId]
     /streak/[vRPid]

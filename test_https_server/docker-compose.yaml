@@ -1,0 +1,14 @@
+version: "3.8"
+services:
+  tt-bot:
+    image: "tt-wrapper-test-serv"
+    working_dir: /serv
+    container_name: "tt-wrapper-test-serv"
+    deploy:
+      resources:
+        limits:
+          cpus: '0.5'
+    restart: never
+    logging:
+      options:
+        max-size: 1m # Max log file size (10m, 50m, 1g, ...)
